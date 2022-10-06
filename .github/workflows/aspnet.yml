@@ -39,5 +39,4 @@ jobs:
         app-name: ${{ env.dotnet-sample-CICD }} 
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }} 
         package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/SampleWebApplication/'
-  
  
